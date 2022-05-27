@@ -18,3 +18,4 @@ setopt hist_reduce_blanks
 source ${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
+export LESSCHARSET=utf-8
